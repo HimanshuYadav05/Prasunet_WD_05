@@ -1,0 +1,74 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('img/weather.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(3, 4, 94, 0.8); 
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 450px;
+  text-align: center;
+  color: #caf0f8;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #90e0ef;
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #caf0f8;
+  color: #03045e;
+  outline: none;
+}
+
+button {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00b4d8;
+}
+
+.weather-info {
+  margin-top: 30px;
+}
+
+.weather-info h2 {
+  font-size: 1.5rem;
+  color: #caf0f8;
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #caf0f8;
+}
